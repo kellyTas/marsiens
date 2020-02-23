@@ -6,6 +6,9 @@ $metaDescription = "Remerciements.";
 $logoMarsiens = "assets/img/logo/logo_1616.png";
 $liensCss = "assets/css/style.css";
 
+// Nav
+$isActive = '';
+
 // HOME PAGE -- LOGO NAV --
 $logoFb = "assets/img/logo/facebook.png";
 $logoInsta  = "assets/img/logo/Instagram.png";
