@@ -115,9 +115,8 @@
     <img src="assets/img/photoEquipe/Carte_notreplanete.png" alt="devanture du couvent">
     <article>
         <p>Notre atelier de conception et de production se situe à la Belle de Mai, au sein de la cité d’artistes «Le Couvent» géré par l’Atelier Juxtapoz.</p>
-        <p>C’est au sein d’un bureau partagé avec 7 autres personnes que nous concevons chacun de nos projets : dessins, réunions, conception sur ordinateurs, etc. </p>
-        <p>La réalisation quant à elle se fait dans notre atelier technique, sur l’ancien lavoir du couvent. Nous le partageons avec Geoffrey Pauchard, designer d’objets et d’espaces et Thibaut & the wood, menuisier et designer. Ainsi, cet espace collectif nous permet de favoriser les échanges, mutualiser les réseaux, les savoirs et les moyens (machines, outils, ...)</p>
-        <p>- On adore les rendez vous de dernière minute, il faudra juste nous prévenir  50 secondes en avance pour que l’on vienne vous ouvrir! - </p>
+        <p>C’est au sein d’un bureau partagé que nous concevons chacun de nos projets : dessins, réunions, conception sur ordinateurs, etc.</p>
+        <p>La réalisation quant à elle se fait dans notre atelier technique partagé, sur l’ancien lavoir du couvent.  Ainsi, cet espace collectif nous permet de favoriser les échanges, mutualiser les réseaux, les savoirs et les moyens (machines, outils, ...)</p>
     </article>
 </div>
 <div id="flechHaut">
