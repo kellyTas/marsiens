@@ -29,6 +29,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;/* interlignage proportionnel à la typo*/
 	width: 100%;
+
 }
 ol, ul {
 	list-style: none;/* plus de puces et petits points*/
@@ -72,6 +73,9 @@ html{
 }
 body{
 	overflow-x: hidden;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 body p{
 	line-height: 1.8em;
@@ -80,6 +84,7 @@ main{
 	padding-top: 15em;
 	width: 90%;
 	margin: 0 auto;
+	flex-grow: 1;
 }
 
 
@@ -789,7 +794,7 @@ footer div{
 	width: 31%;
 	padding:10px;
 	text-transform: uppercase;
-	text-align: right;
+	text-align: right;	
 }
 footer div a{
 	color: black;
@@ -1029,6 +1034,7 @@ footer{
 	main{
 		width: 95%;
 		padding-top: 9em;
+		min-height: 90%;
 	}
 	.titlewrapper{
 		width: 100%;
