@@ -7,6 +7,7 @@ $metaDescription = "Les Marsiens est un studio collectif de design urbain basé 
 $logoMarsiens = "assets/img/logo/logo_1616.png";
 $liensCss = "assets/css/style.css";
 $videoHome = "<video src=\"#\"></video>";
+$isActive = "";
 
 // HOME PAGE -- LOGO NAV --
 $logoFb = "assets/img/logo/facebook.png";
