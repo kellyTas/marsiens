@@ -1171,6 +1171,9 @@ footer{
 	.vignetteProjet{
 		display: block;
 	}
+	#homeVignette3-hover, #homeVignette1-hover, #homeVignette2-hover {
+		display: none;
+	}
 	
 	/* Infos */
 	.pleinEcran{
