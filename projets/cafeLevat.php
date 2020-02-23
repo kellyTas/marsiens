@@ -13,56 +13,106 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/7cafeLevat/buvette.gif",
+    "../assets/img/projets/7cafeLevat/1buvette.jpg",
+    "../assets/img/projets/7cafeLevat/2buvette.jpg",
+    "../assets/img/projets/7cafeLevat/3buvette.jpg"
+];
+
+$images2 = [
+    "../assets/img/projets/7cafeLevat/5buvette.jpg",
+    "../assets/img/projets/7cafeLevat/6buvette.jpg",
+    "../assets/img/projets/7cafeLevat/7buvette.jpg"
+];
+
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
     <div class="wrapperProjets"> 
         <div class="blocImgProjetsPPI">
-            <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/buvette.gif" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/1buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/2buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/3buvette.jpg" alt="">
+        <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/7cafeLevat/4_1buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/4_1buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/4_1buvette.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/7cafeLevat/4_2buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/4_2buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/4_2buvette.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/5buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/6buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/7buvette.jpg" alt="">
+        <?php 
+        foreach($images2 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/7cafeLevat/8_1buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/8_1buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/8_1buvette.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/7cafeLevat/8_2buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/8_2buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/8_2buvette.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/9buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/10buvette.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/9buvette.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/9buvette.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/10buvette.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/10buvette.jpg">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/7cafeLevat/11_1buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/11_1buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/11_1buvette.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/7cafeLevat/11_2buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/11_2buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/11_2buvette.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/12buvette.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/12buvette.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/12buvette.jpg">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/7cafeLevat/13_1buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/13_1buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/13_1buvette.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/7cafeLevat/13_2buvette.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/13_2buvette.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/13_2buvette.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/14buvette.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/7cafeLevat/15buvette.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/14buvette.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/14buvette.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/7cafeLevat/15buvette.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/7cafeLevat/15buvette.jpg">
+            </a>
         </div>
         <article class="txtProjets articleProjet">
             <h3>Le café Levat</h3>
