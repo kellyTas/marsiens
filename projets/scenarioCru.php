@@ -12,59 +12,113 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/8sceno/sceno.gif",
+    "../assets/img/projets/8sceno/2sceno.jpg",
+    "../assets/img/projets/8sceno/3sceno.jpg",
+    "../assets/img/projets/8sceno/4sceno.jpg",
+    "../assets/img/projets/8sceno/5sceno.jpg"
+];
+
+$images2 = [
+    "../assets/img/projets/8sceno/11sceno.jpg",
+    "../assets/img/projets/8sceno/12sceno.jpg",
+    "../assets/img/projets/8sceno/13sceno.jpg",
+    "../assets/img/projets/8sceno/14sceno.jpg"
+];
+
+$images3 = [
+    "../assets/img/projets/8sceno/16sceno.jpg",
+    "../assets/img/projets/8sceno/17sceno.jpg",
+    "../assets/img/projets/8sceno/18sceno.jpg"
+];
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
  <div class="wrapperProjets"> 
         <div class="blocImgProjetsPPI">
-            <img class="imgPPI gif" src="../assets/img/projets/8sceno/sceno.gif" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/1sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/2sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/3sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/4sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/5sceno.jpg" alt="">
+        <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/8sceno/6_1sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/6_1sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/6_1sceno.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/8sceno/6_2sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/6_2sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/6_2sceno.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/8sceno/7sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/8sceno.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/8sceno/7sceno.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/8sceno/7sceno.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/8sceno/8sceno.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/8sceno/8sceno.jpg">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/8sceno/9_1sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/9_1sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/9_1sceno.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/8sceno/9_2sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/9_2sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/9_2sceno.jpg">
+                </a>
                 </figure>
             </div>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/8sceno/10_1sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/10_1sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/10_1sceno.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/8sceno/10_2sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/10_2sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/10_2sceno.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/8sceno/11sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/12sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/13sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/14sceno.jpg" alt="">
+        <?php 
+        foreach($images2 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/8sceno/15_1sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/15_1sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/15_1sceno.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/8sceno/15_2sceno.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/8sceno/15_2sceno.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/8sceno/15_2sceno.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/8sceno/16sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/17sceno.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/8sceno/18sceno.jpg" alt="">
+        <?php 
+        foreach($images3 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
         </div>
         <article class="txtProjets articleProjet">
             <h3>LA VILLE EN JEUX / 12M3</h3>
