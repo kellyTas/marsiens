@@ -189,15 +189,7 @@ div>article>a {
 	vertical-align: top;
 	text-align: center;
 }
-.block-lien {
-	display: flex;
-	justify-content: center;
-}
-.lien {
-	color: black;
-	text-decoration: underline;
-	font-size: 1.5em;
-}
+
 
 
 /*block derniers projets*/
@@ -262,6 +254,28 @@ div>article>a {
 	z-index: 0;
 	display: block;
 } 
+
+/* Bouton tous les projets */ 
+
+#img-btn-projets:hover{
+	transform: scale(1.1);
+}
+#img-btn-projets{
+	transition: all ease-in-out 0.8s;
+	/*box-shadow: 10px 10px 5px 8px grey;*/
+}
+.block-lien {
+	margin: 4rem auto 1rem auto;
+	display: flex;
+	justify-content: center;
+	
+}
+.lien {
+	color: black;
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+
 
 /*block insta*/
 #lienInsta{
