@@ -13,74 +13,147 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/9dubuffet/1a_premier.gif",
+    "../assets/img/projets/9dubuffet/2.jpg",
+    "../assets/img/projets/9dubuffet/3.gif"
+];
+
+$images2 = [
+    "../assets/img/projets/9dubuffet/5.jpg",
+    "../assets/img/projets/9dubuffet/6.jpg",
+    "../assets/img/projets/9dubuffet/7.gif"
+];
+
+$images3 = [
+    "../assets/img/projets/9dubuffet/9a.jpg",
+    "../assets/img/projets/9dubuffet/10.jpg",
+    "../assets/img/projets/9dubuffet/11.gif"
+];
+
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
     <div class="wrapperProjets"> 
         <div class="blocImgProjetsPPI">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/1a_premier.gif" alt=""> 
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/2.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/3.gif" alt="">
+        <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/4a.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/4a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/4a.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/4b.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/4b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/4b.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/5.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/6.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/7.gif" alt=""><div class="doubleVerticale">
-                <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/8a.jpg" alt="">
-                </figure>
-                <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/8b.jpg" alt="">
-                </figure>
-            </div>
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/9a.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/10.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/11.gif" alt="">
+        <?php 
+        foreach($images2 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/14a.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/8a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/8a.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/14b.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/8b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/8b.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/15.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/16.gif" alt="">
+        <?php 
+        foreach($images3 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/17a.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/14a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/14a.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/17b.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/14b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/14b.jpg">
+                </a>
+                </figure>
+            </div>
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/15.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/15.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/16.gif">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/16.gif">
+            </a>
+            <div class="doubleVerticale">
+                <figure class="verticale1">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/17a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/17a.jpg">
+                </a>
+                </figure>
+                <figure class="verticale2">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/17b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/17b.jpg">
+                </a>
                 </figure>
             </div>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/18a.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/18a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/18a.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/18b.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/18b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/18b.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/19.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/20.gif" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/19.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/19.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/20.gif">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/20.gif">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/21a.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/21a.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/21a.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img class="imgPPI" src="../assets/img/projets/9dubuffet/21b.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/21b.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/21b.jpg">
+                </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/22.jpg" alt="">
-            <img class="imgPPI" src="../assets/img/projets/9dubuffet/23.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/22.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/22.jpg">
+            </a>
+            <a data-fancybox="gallery" href="../assets/img/projets/9dubuffet/23.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/9dubuffet/23.jpg">
+            </a>
         </div>
         <article class="txtProjets articleProjet">
             <h3>LA PETITE FABRIQUE DE DUBUFFET</h3>

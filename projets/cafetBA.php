@@ -34,12 +34,10 @@ require_once "header.php";
         <div class="blocImgProjetsPPI">
         <?php 
         foreach($images1 as $image){
-            echo
-            <<<CODEHTML
-            <a data-fancybox="gallery" href="$image">
-                <img class="imgPPI gif" src="$image">
-            </a>
-            CODEHTML;
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>';
         }
         ?>
             <div class="mosaique mb1">
@@ -86,12 +84,10 @@ require_once "header.php";
 
         <?php 
         foreach($images2 as $image){
-            echo
-            <<<CODEHTML
-            <a data-fancybox="gallery" href="$image">
-                <img class="imgPPI gif" src="$image">
-            </a>
-            CODEHTML;
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>';
         }
         ?>
             <div class="doubleVerticale">
