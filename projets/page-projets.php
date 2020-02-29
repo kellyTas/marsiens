@@ -8,12 +8,12 @@
     <a href="projets/cafetBA.php" class="photoProjet1">
         <h3 class="mobileProjectTitle">La Cafét’ des Beaux-Arts</h3>
         <img class="vignetteProjet" src="assets/img/projets/10BA/image_preview.jpg" alt="">
-        <img class="hover" src="assets/img/projets/10BA/gifBA.gif">
+        <img id="homeVignette3-hover" class="hover" src="assets/img/projets/10BA/gifBA.gif">
     </a>
     <a href="projets/dubuffet.php" class="photoProjet2">
         <h3 class="mobileProjectTitle">LA PETITE FABRIQUE DE DUBUFFET</h3>
         <img class="vignetteProjet" src="assets/img/projets/9dubuffet/image_preview.jpg" alt="">
-        <img class="hover" src="assets/img/projets/9dubuffet/gifJaune.gif">
+        <img class="hover" src="assets/img/projets/9dubuffet/gifBA.gif">
     </a>
     <a href="projets/scenarioCru.php" class="photoProjet3">
         <h3 class="mobileProjectTitle">LA VILLE EN JEUX / 12M3</h3>

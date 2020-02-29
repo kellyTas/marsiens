@@ -23,7 +23,7 @@
         <figure id="homeVignette2" class="colHorizontale">
             <a href="projets/dubuffet.php">
                 <img class="vignetteProjet" src="assets/img/projets/9dubuffet/image_preview.jpg" alt="">
-                <img id="homeVignette1-hover" class="hover" src="assets/img/projets/9dubuffet/gifJaune.gif">
+                <img id="homeVignette1-hover" class="hover" src="assets/img/projets/9dubuffet/gifBA.gif">
             </a>
         </figure>
         <figure id="homeVignette3" class="colHorizontale">
