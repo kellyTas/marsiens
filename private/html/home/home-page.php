@@ -34,7 +34,7 @@
         </figure>
     </div>
     <div class="block-lien">
-        <a class="lien" href="projets/page-projets.php">Voir tous nos projets</a>
+        <a class="lien" href="page-projets.php"><img id="img-btn-projets" src="assets/img/photoAccueil/btn-all-projets-black-edition.png" alt="Voir tous nos projets" title="Voir tous nos projets"></a>
     </div>
 </div>
 <div>
