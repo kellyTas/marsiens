@@ -5,11 +5,8 @@
 </div>
 <div class="wrapperContact">
     <div id="imgContact">
-        <a href="#img1">
-            <img src="assets/img/carte_contact3.jpg" class="thumbnail" alt="carte de Marseille">
-        </a>
-        <a href="#_" class="lightbox" id="img1">
-            <img src="assets/img/carte_contact3.jpg">
+        <a data-fancybox="gallery" href="assets/img/carte_contact3.jpg">
+            <img class="imgPPI gif" src="assets/img/carte_contact3.jpg">
         </a>
     </div>
 

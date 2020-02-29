@@ -722,7 +722,6 @@ section{
 /* PAGE - CONTACT */
 #imgContact{
 	width: 62%;
-	height: 45em;;
 }
 .wrapperContact{
 	display: flex;
@@ -762,27 +761,8 @@ section{
 #contact strong{
 	font-weight: bold;
 }
-.thumbnail {
-	width: 100%;
-	height: 54em;
-}
 /* Modale image contact */
 
-.lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-	overflow: visible;
-}
 .lightbox img {
 	/** Pad the lightbox image */
 	width: 60%;
