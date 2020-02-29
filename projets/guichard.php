@@ -12,18 +12,26 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/6guichard/Gifplace2.gif",
+    "../assets/img/projets/6guichard/1placesguichard.jpg",
+    "../assets/img/projets/6guichard/2placesguichard.jpg",
+    "../assets/img/projets/6guichard/3placesguichard.jpg",
+    "../assets/img/projets/6guichard/4placesguichard.jpg",
+    "../assets/img/projets/6guichard/5placesguichard.jpg"
+];
+
+$images2 = [
+    "../assets/img/projets/6guichard/8placesguichard.jpg",
+    "../assets/img/projets/6guichard/9placesguichard.jpg"
+];
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        <img class="imgPPI gif" src="../assets/img/projets/6guichard/Gifplace2.gif" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/1placesguichard.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/2placesguichard.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/3placesguichard.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/4placesguichard.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/5placesguichard.jpg" alt="">
+        //boucle 1
         <div class="doubleVerticale">
             <figure class="verticale1">
                 <img  src="../assets/img/projets/6guichard/6_1placesguichard.jpg" alt="">
@@ -33,12 +41,17 @@ require_once "header.php";
             </figure>
         </div>
         <div class="mosaique" >
-            <figure class="colVerticale"><img src="../assets/img/projets/6guichard/7_1placesguichard.jpg" alt=""></figure>
-            <figure class="colHorizontale" ><img src="../assets/img/projets/6guichard/7_2placesguichard.jpg" alt=""></figure>
-            <figure class="colHorizontale"><img src="../assets/img/projets/6guichard/7_3placesguichard.jpg" alt=""></figure>
+            <figure class="colVerticale">
+                <img src="../assets/img/projets/6guichard/7_1placesguichard.jpg" alt="">
+            </figure>
+            <figure class="colHorizontale" >
+                <img src="../assets/img/projets/6guichard/7_2placesguichard.jpg" alt="">
+            </figure>
+            <figure class="colHorizontale">
+                <img src="../assets/img/projets/6guichard/7_3placesguichard.jpg" alt="">
+            </figure>
         </div>
-        <img class="imgPPI" src="../assets/img/projets/6guichard/8placesguichard.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/6guichard/9placesguichard.jpg" alt="">
+        // boucle 2
     </div>
     <article class="txtProjets articleProjet">
         <h3>LES PLACES GUICHARD</h3>

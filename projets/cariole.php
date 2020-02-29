@@ -12,15 +12,18 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/1cariole/1carriole.gif",
+    "../assets/img/projets/1cariole/1carriole.jpg",
+    "../assets/img/projets/1cariole/2carriole.jpg"
+];
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        <img class="imgPPI gif" src="../assets/img/projets/1cariole/1carriole.gif" alt="">
-        <img class="imgPPI" src="../assets/img/projets/1cariole/1carriole.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/1cariole/2carriole.jpg" alt="">
+        // bouble image1
         <div class="doubleVerticale">
             <figure class="verticale1">
                 <img  src="../assets/img/projets/1cariole/3_1carriole.jpg" alt="">

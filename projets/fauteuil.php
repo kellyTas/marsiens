@@ -12,13 +12,24 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+
+$images1 = [
+    "../assets/img/projets/3fauteuil/Fauteuil.gif",
+    "../assets/img/projets/3fauteuil/1fauteuil.jpg"
+];
+
+$images2 = [
+    "../assets/img/projets/3fauteuil/3fauteuil.jpg",
+    "../assets/img/projets/3fauteuil/4fauteuil.jpg",
+    "../assets/img/projets/3fauteuil/5fauteuil.jpg"
+];
+
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/Fauteuil.gif" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/1fauteuil.jpg" alt="">
+        //bloucle image 1
         <div class="doubleVerticale">
             <figure class="verticale1">
                 <img  src="../assets/img/projets/3fauteuil/2_1fauteuil.jpg" alt="">
@@ -27,9 +38,7 @@ require_once "header.php";
                 <img  src="../assets/img/projets/3fauteuil/2_2fauteuil.jpg" alt="">
             </figure>
         </div>
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/3fauteuil.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/4fauteuil.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/5fauteuil.jpg" alt="">
+        // boucle 2
     </div>
     <article class="txtProjets articleProjet">
         <h3>FAUTEUIL DE LECTURE</h3>

@@ -12,15 +12,23 @@ $logoLinkedin = "../assets/img/logo/linkedin.png";
 $logoMarsNav = "../assets/img/logo/LesMarsiens_2018_OK.png";
 $logoPlus = "../assets/img/logo/plus.png";
 
+$images1 = [
+    "../assets/img/projets/5devanture/couvent2.gif",
+    "../assets/img/projets/5devanture/1devanture.jpg",
+    "../assets/img/projets/5devanture/2devanture.jpg"
+];
+
+$images2 = [
+    "../assets/img/projets/5devanture/4devanture.jpg",
+    "../assets/img/projets/5devanture/5devanture.jpg"
+];
 
 require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        <img class="imgPPI gif" src="../assets/img/projets/5devanture/couvent2.gif" alt="">
-        <img class="imgPPI" src="../assets/img/projets/5devanture/1devanture.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/5devanture/2devanture.jpg" alt="">
+        // boucle image 1
         <div class="doubleVerticale">
             <figure class="verticale1">
                 <img  src="../assets/img/projets/5devanture/3_1devanture.jpg" alt="">
@@ -29,8 +37,7 @@ require_once "header.php";
                 <img  src="../assets/img/projets/5devanture/3_2devanture.jpg" alt="">
             </figure>
         </div>
-        <img class="imgPPI" src="../assets/img/projets/5devanture/4devanture.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/5devanture/5devanture.jpg" alt="">
+        //boucle 2
     </div>
     <article class="txtProjets articleProjet">
         <h3>Devanture du couvent</h3>
