@@ -1351,6 +1351,14 @@ footer{
 	}
 }
 
+/* iMac et grands écrans*/ 
+
+@media only screen and (min-width:1940px) {
+	
+	.hover:hover{
+		width: 75%;
+	}
+}
 
 
   
