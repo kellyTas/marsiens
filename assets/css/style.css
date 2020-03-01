@@ -95,10 +95,15 @@ main{
 header {
 	width: 100%;/* ajout pour hover logo */
 	background-color: white;
-	padding: 1%;
+	padding: 0.8%;
 	position: fixed;
 	top: 0;
+	transition: top 1s ease-in;
 	z-index: 500;
+}
+header.hidden {
+	transition:top 1s ease-out;
+	top: -100px;
 }
 nav {
 	width: 100%;
@@ -108,9 +113,10 @@ nav {
 
 nav>div {
 	width: 27%;
-	text-align: center;
-	font-size: 1.2em;
+	text-align: right;
+	font-size: 1em;
 	font-weight: bold;
+
 }
 nav>div:first-child{
 	text-align:left;
@@ -122,18 +128,20 @@ nav>div:first-child{
 }
 .logoMarsNav {
 	width: 125px;
-	height: 100px;
+	height: 80px;
 	display: block;
 	margin: 0 auto;
 	transition: all ease 0.7s;
 }
 #logoMarsNav{
 	background-image: url(../img/logo/LesMarsiens_2018_OK.png);
-	background-size: 100%;
+	background-size: 80%;
 	background-repeat: no-repeat;
+	background-position: 50% 50%;
 }
 #logoMarsNav:hover{
 	background-image: url(../img/logo/logo-marsiens-gif.gif);
+	background-size: 60%;
 }
 
 nav>div:nth-child(3)>a {
@@ -491,7 +499,7 @@ section{
 	display: none;
 }
 .liste {
-	padding: 2em;
+	padding: 1em;
 	list-style: circle;
 }
 .vignetteProjet{
@@ -499,37 +507,42 @@ section{
 }
 .wrapperProjets{
 	display: flex;
-	overflow: hidden;
-  height: 100vh;
-	backface-visibility: hidden;
-	will-change: overflow;
-	margin-left: -13%; /*  --> pour pouvoir mettre le scroll à gauche des images	 */
-}
-.blocImgProjetsPPI, .articleProjet{
-	overflow: auto;
-    height: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
+	margin-left: -12%;  /* --> pour pouvoir mettre le scroll à gauche des images	 */
+	margin-top: -4rem; 
 }
 .blocImgProjetsPPI{
 	width: 70%;
 	padding-left: 10%; /*  --> pour pouvoir mettre le scroll à gauche des images	 */
 	/*flex: 0;*/
 }
-.blocImgProjetsPPI::-webkit-scrollbar,
-.articleProjet::-webkit-scrollbar{
-    display: none;
+.wrapperProjets .articleProjet{
+	position: fixed;
+	top: 9.2rem;
+	right: 5.8rem;
 }
 .txtProjets h3{
 	font-weight: 600;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-bottom: 1em;
 	text-transform: uppercase;
+}
+.txtProjets h4{
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-bottom: 1em;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#descriptionProjet span{
+	font-weight: bold;
 }
 .subtitleProjet{
 	font-weight: 500;
 	font-size: 1.3em;
 	margin-bottom: 1em;
+}
+#descriptionProjet div{
+	min-height: 3rem;
 }
 #descriptionProjet a {
 	color: black;
@@ -556,6 +569,14 @@ section{
 .articleProjet p:not(.subtitleProjet){
 	font-size: 1.2em;
 }
+
+.afficher{
+	display: block;
+}
+.cacher {
+	display: none;
+}
+
 /* MOZAIQUE PAR 3 2horizontale 1verticales */
 .mosaique{
     display:flex;
@@ -1239,6 +1260,7 @@ footer{
 		margin-left: 0;
 		overflow: auto;
 	}
+	
 	.blocImgProjetsPPI{
 		width: 100%;
 		padding-left: 0;

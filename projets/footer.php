@@ -7,6 +7,7 @@
         <p>© 2018 Les Marsiens - Tous droits réservés</p>
     </div>
 </footer>
+<script src="affichage-article-projet.js"></script>
 <script type="text/javascript">
 let isActive = false;
 
@@ -44,5 +45,22 @@ function displayMenu(){
   gtag('config', 'UA-158985950-1');
 
 </script>
+<script>
+    // apparition et disparition du Header en fonction du scroll
+    let header = document.querySelector("header");
+    let lastScrollValue = 0;
+
+   
+    document.addEventListener('scroll',() => {
+        let top  = document.documentElement.scrollTop;
+    if(lastScrollValue < top) {
+        header.classList.add("hidden");
+    } else {
+        header.classList.remove("hidden");
+    }
+    lastScrollValue = top;
+    });
+</script>
+
 </body> 
 </html>

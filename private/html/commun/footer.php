@@ -25,5 +25,21 @@
   gtag('config', 'UA-158985950-1');
 
 </script>
+<script>
+    // apparition et disparition du Header en fonction du scroll
+    let header = document.querySelector("header");
+    let lastScrollValue = 0;
+
+   
+    document.addEventListener('scroll',() => {
+        let top  = document.documentElement.scrollTop;
+    if(lastScrollValue < top) {
+        header.classList.add("hidden");
+    } else {
+        header.classList.remove("hidden");
+    }
+    lastScrollValue = top;
+    });
+</script>
 </body> 
 </html>

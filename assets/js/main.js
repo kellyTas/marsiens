@@ -1,5 +1,26 @@
+window.addEventListener("DOMContentLoaded", (event) => {
+    console.log("DOM entièrement chargé et analysé");
+    let header = document.querySelector("header");
+    let lastScrollValue = 0;
+    console.log(header);
+    document.addEventListener('scroll',() => {
+        let top  = document.documentElement.scrollTop;
+    if(lastScrollValue < top) {
+        header.classList.add("hidden");
+        console.log("disparition activé")
+    
+    } else {
+        header.classList.remove("hidden");
+    }
+    lastScrollValue = top;
+    });
+  });
+
 let isActive = false;
 let isDisplayed = false;
+//let header = document.querySelector("header");
+
+
 
 function displayMenu(){
     if(isActive == false){
@@ -34,3 +55,4 @@ function displayDescription(){
         isDisplayed = false ;
     }
 }
+
