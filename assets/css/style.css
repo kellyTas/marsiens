@@ -114,7 +114,7 @@ nav {
 nav>div {
 	width: 27%;
 	text-align: right;
-	font-size: 1em;
+	font-size: 1.1em;
 	font-weight: bold;
 
 }
@@ -146,8 +146,8 @@ nav>div:first-child{
 
 nav>div:nth-child(3)>a {
 	display: inline-block;
-	margin-left: 2em;
-	padding-top: 4.1em;
+	margin-left: 1.5em;
+	padding-top: 3.1em;
 	color: black;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -499,7 +499,7 @@ section{
 	display: none;
 }
 .liste {
-	padding: 1em;
+	padding: 0 1em;
 	list-style: circle;
 }
 .vignetteProjet{
@@ -519,6 +519,10 @@ section{
 	position: fixed;
 	top: 9.2rem;
 	right: 5.8rem;
+	transition: top 1s ease;
+}
+main .wrapperProjets .onTop{
+	top:0.2rem; /* Pour changer la position des articles au scroll */
 }
 .txtProjets h3{
 	font-weight: 600;
@@ -533,8 +537,16 @@ section{
 	text-decoration: underline;
 	cursor: pointer;
 }
+.txtProjets h6{
+	font-size: 1.5em;
+	font-weight: lighter;
+}
 #descriptionProjet span{
 	font-weight: bold;
+}
+#descriptionProjet img{
+	width: 20%;
+	margin: 5px 0;
 }
 .subtitleProjet{
 	font-weight: 500;

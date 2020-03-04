@@ -33,30 +33,27 @@ function displayMenu(){
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158985950-1"></script>
 
 <script>
-
   window.dataLayer = window.dataLayer || [];
-
   function gtag(){dataLayer.push(arguments);}
-
   gtag('js', new Date());
-
- 
-
   gtag('config', 'UA-158985950-1');
-
 </script>
 <script>
-    // apparition et disparition du Header en fonction du scroll
-    let header = document.querySelector("header");
-    let lastScrollValue = 0;
 
+    // apparition et disparition du Header en fonction du scroll
+    
+    let header = document.querySelector("header");
+    let article = document.querySelector(".wrapperProjets article");
+    let lastScrollValue = 0;
    
     document.addEventListener('scroll',() => {
         let top  = document.documentElement.scrollTop;
     if(lastScrollValue < top) {
         header.classList.add("hidden");
+        article.classList.add("onTop"); // Remonter les articles des ppi en même temps que le menu
     } else {
         header.classList.remove("hidden");
+        article.classList.remove("onTop");
     }
     lastScrollValue = top;
     });

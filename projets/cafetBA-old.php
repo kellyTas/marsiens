@@ -119,60 +119,33 @@ require_once "header.php";
             <h3>La Cafét’ des Beaux-Arts</h3>
             <img id="plusProjet" src="<?php echo($logoPlus) ?>" alt="logo plus infos" onclick="displayDescription()">
             <div id="descriptionProjet" >
-            <div id="date">
-                    <h4  >Dates</h4>
-                    <p class="contenu"> <span> 04.019 - 07.01</span></p>
-                </div>
-                <div id="client">
-                    <h4>Client</h4>
-                    <div class="contenu">
-                        <h6>ESADMM</h6>   
-                        <p style="font-style:italic" >Conception et Réalisation du mobilier pour la Cafétérias des Beaux-Arts de Marseille Conception, prototype, production.</p>
-                    </div>
-                </div>
-                <div id="projet">
-                    <h4>Type de projet</h4>
-                    <div class="contenu">
-                        <p >L’école des Beaux-Arts de Marseille nous a sollicité pour <span>aménager un nouvel espace cafétéria</span> au sein de l’école</p>
-                        <p>L’espace de  <span>155m2</span> déjà existant nécessitait d’être repensé et amélioré en fonction de ses usages actuels</p>
-                    </div>
-                </div>
-
-                <div id="contexte">
-                    <h4>Contexte</h4>
-                    <div class="contenu">
-                        <p >La demande de l’école fut de créer un nouvel espace cafétéria comprenant des <span>tables, bancs et tabourets</span> pouvant accueillir jusqu’a <span>80 personnes</span> (contre 50/60 antérieurement). </p>
-                    </div>
-                </div>
-
-                <div id="deroule">
-                    <h4>Déroulé</h4>
-                    <div class="contenu">
-                        <p >Après <span>analyse</span> des lieux et plusieurs échanges avec les clients nous avons pu établir les véritables attentes concernant cet espace et revoir de manière plus adaptée et détaillée le cahier des charges. </p>
-                        <p>Nous avons également eu des entretiens avec le prestataire actuel de la cafétéria <span>« Gargantuart» par les jnounFactory</span> qui nous ont fait part de leur utilisation des lieux et attentes vis a vis du projet.</p>
-                        <p>De plus nous avons fait une <span>enquête</span> auprès des usagés (Professeurs, élèves et administration Art/Archi/design) ce qui nous a permis d’établir un fil directeur : <span>Convivialité, Identité et Mondularité.</span> </p>
-                        <p>Après validation des prototypes nous sommes très rapidement passé dans la phase de réalisation dans nos ateliers afin de pouvoir respecter les cours délais de livraison attendus par le client. </p>
-                    </div>
-                </div>
-                <div id="proposition">
-                    <h4>Proposition</h4>
-                    <div class="contenu">
-                        <p> Au total, la proposition regroupe :</p>
-                        <ul class="liste">
-                            <li>6 tables de 6 personnes avec 9 bancs de 3 personnes </li>
-                            <li>3 tables de 4 personnes avec 6 bancs de 2 personnes </li>
-                            <li>2 tables de 12 personnes avec 8 bancs de 3 personnes</li>
-                            <li>9 tabourets</li>
-                            <li>2 claustras «banquettes» </li>
-                            <li>1 claustra «tablettes» </li>
-                            <li>1 grande banquette de 6,50 mètres</li>
-                            <li>1 banque de service </li>
-                            <li>1 banque de fin de service et des poubelles</li>
-                        </ul>
-                        <p>Grace au travail et l’aide de l’équipe technique de l’école pour la rénovation des lieux nous avons pu installer pour la rentée de Janvier 2020 le nouvel espace Cafétéria des Beaux-Arts de Marseille.</p>
-                        <p>Fournisseurs: Littoral Bois (Panneaux et Tasseaux) Mousse & Confection (coussins d’assises) EVP (vernis) GLoxy (découpe laser et pliage des tôles d’acier) Themolaquage Provençal ( thermolaquage des pièces métalliques) LM5P (éclairage), Plasticiet (plaques de plastique PUHD recyclé). </p>
-                    </div>
-                </div>
+                <p class="subtitleProjet">09.019 - 01.020</p>
+                <p class="subtitleProjet">Conception et Réalisation du mobilier pour la Cafétérias des Beaux-Arts de Marseille</p>
+                <p class="subtitleProjet">Conception, prototype, production. </p>
+            
+                <p><a href="http://esadmm.fr/" target="_blank">L’école des Beaux-Arts de Marseille</a> nous a sollicité pour aménager un nouvel espace cafétéria au sein de l’école. </p>
+                <p>L’espace de 155m2 déjà existant nécessitait d’être repensé et amélioré en fonction de ses usages actuels.</p>
+                <p>La demande de l’école fut de créer un nouvel espace cafétéria comprenant des tables, bancs et tabourets pouvant accueillir jusqu’a 80 personnes (contre 50/60 antérieurement).
+                Après analyse des lieux et plusieurs échanges avec les clients nous avons pu établir les véritables attentes concernant cet espace et revoir de manière plus adaptée et détaillée le cahier des charges.</p>
+                <p>Nous avons également eu des entretiens avec le prestataire actuel de la cafétéria « Gargantuart » par les <a href="https://www.facebook.com/lesjnounfactory/?eid=ARCEUFwrH_cUPX5gHOK2sUra3tmwrWCXDzeQcLZ4gz591aYYDKiMgj_03HgDP8EXeLN-jxy4MF_qGC8P&timeline_context_item_type=intro_card_work&timeline_context_item_source=1069344127&fref=tag" target="_blank">jnounFactory</a>  qui nous ont fait part de leur utilisation des lieux et attentes vis a vis du projet.</p>
+                <p>De plus nous avons fait une enquête auprès des usagés (Professeurs, élèves et administration Art/Archi/design) ce qui nous a permis d’établir un fil directeur : Convivialité, Identité et Mondularité.</p>
+                <p>Après validation des prototypes nous sommes très rapidement passé dans la phase de réalisation dans nos ateliers afin de pouvoir respecter les cours délais de livraison attendus par le client.</p>
+                
+                <ul class="liste">
+                    <p>Au total, la proposition regroupe :</p>
+                    <li>6 tables de 6 personnes avec 9 bancs de 3 personnes</li>
+                    <li>3 tables de 4 personnes avec  6 bancs de 2 personnes</li>
+                    <li>2 tables de 12 personnes avec  8 bancs de 3 personnes</li>
+                    <li>9 tabourets</li>
+                    <li>2 claustras «banquettes»</li>
+                    <li>1 claustra «tablettes»</li>
+                    <li>1 grande banquette de 6,50 mètres</li>
+                    <li>1 banque de service</li>
+                    <li>1 banque de fin de service et des poubelles </li>
+                </ul>
+                
+                <p>Grace au travail et l’aide de l’équipe technique de l’école pour la rénovation des lieux nous avons pu installer pour la rentée de Janvier 2020 le nouvel espace Cafétéria des Beaux-Arts de Marseille.</p>
+                <p>Fournisseurs: Littoral Bois (Panneaux et Tasseaux) Mousse & Confection (coussins d’assises) EVP (vernis) GLoxy (découpe laser et pliage des tôles d’acier) Themolaquage Provençal ( thermolaquage des pièces métalliques) LM5P (éclairage), Plasticiet (plaques de plastique PUHD recyclé).</p>
             </div>
         </article>
     </div>

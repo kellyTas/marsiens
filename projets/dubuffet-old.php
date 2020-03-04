@@ -159,52 +159,28 @@ require_once "header.php";
             <h3>LA PETITE FABRIQUE DE DUBUFFET</h3>
             <img id="plusProjet" src="<?php echo($logoPlus) ?>" alt="logo plus infos" onclick="displayDescription()">
             <div id="descriptionProjet" >
-                <div id="date">
-                    <h4  >Dates</h4>
-                    <p class="contenu"> <span> 04.019 - 07.01</span></p>
-                </div>
-                <div id="client">
-                    <h4>Client</h4>
-                    <div class="contenu">
-                        <img src="assets/img/projets/9dubuffet/Logo_Mucem.jpg" alt="">    
-                        <p>Création d’un espace de <span> jeux pour enfant</span> « La Petite Fabrique De Dubuffet » en parallèle de <span>l’exposition sur Jean Dubuffet</span> au sein du Mucem. </p>
-                        <p style="font-style:italic" >Réponse à appel à projet, co-conception, prototype, production.</p>
-                    </div>
-                </div>
-                <div id="projet">
-                    <h4>Type de projet</h4>
-                    <p class="contenu">En réponse à<span> l'appel à projet</span> lancé par le Mucem pour réaliser un <span>espace jeune public</span> en lien avec leur exposition phare sur Jean Dubuffet, nous avons soumis, avec notre collectif de graphistes préférés <a href="https://www.jaune-sardine.fr">Jaune Sardine</a>  , la proposition de 4 <span>modules</span> de jeux et 1 module de médiation afin de s’approprier certains codes artistiques de l’artiste</p>
-                </div>
-
-                <div id="contexte">
-                    <h4>Contexte</h4>
-                    <div class="contenu">
-                        <p >Il nous fallait à la fois réfléchir en permanence à l’utilisation par des enfants de <span>6 à 12 ans</span> de nos objets, et à <span>l’itinérance</span> de notre proposition, qui voyagera ensuite avec l’exposition sur l’oeuvre de Jean Dubuffet dans <span>différents musées d’Europe</span>.</p>
-                        <p>Nous avons donc produit une réponse prenant en compte cette mobilité, sans nécessiter de stockage annexe pour les musées. Ainsi, nos modules sont à la fois <span>boîtes de transports, modules de jeux, et stocks de nos pièces</span> afin que l’ensemble soit directement installé dans le même espace.</p>
-                    </div>
-                </div>
-
-                <div id="deroule">
-                    <h4>Déroulé</h4>
-                    <div class="contenu">
-                        <p >Des rencontres régulières avec Jaune Sardine et nos différents interlocuteurs du Mucem nous ont permis de présenter et affiner la conception du projet. De plus, grâce à notre nouvelle <span>machine de prototypage</span> nous avons pu fournir en amont de la production un échantillon de chaque module afin d’échanger dessus et pouvoir anticiper la réalisation de l’ensemble des pièces.</p>
-                        <p>Nos choix de matériaux ont pris en compte les différentes normes régissant cet espace (accueil de groupe d’enfants, réglementation anti-feu, etc.) ainsi que l’<span>usage de nos objets</span> par les enfants (poids et taille des pièces, etc.) les médiateurs (rangement & nettoyage facile), les techniciens (installations & désinstallations facilitées par les roulettes, systèmes de fermetures, cabane démontable par système de paumelles…).</p>
-                    </div>
-                </div>
-                <div id="proposition">
-                    <h4>Proposition</h4>
-                    <div class="contenu">
-                        <p>Notre proposition finale regroupe ainsi : </p>
-                        <ul class="liste">
-                            <li><span>“Les Totems”</span>, un module proposant aux enfants de <span>construire différents personnages</span> grâce à des formes à encoches</li>
-                            <li><span>“La Cabane”</span>, un espace à l’échelle des enfants entièrement coloriable</li>
-                            <li><span>“Le Tête à Tête”</span>, pour apprendre à réaliser des <span>portraits à l’aide de visages</span> et ses attributs aimantés;</li>
-                            <li><span>“Le Métro”</span>, pour <span>créer des mots</span> en assemblant des lettres dessinées sur des rails </li>
-                            <li><span>Un module médiation</span>, proposant des tabourets et permettant l’accueil des enfants, la présentation de l’espace et la conclusion des activités.</li>
-                        </ul>
-                        
-                    </div>
-                </div>                
+                <p class="subtitleProjet">04.019 - 07.019</p>
+                <p class="subtitleProjet">Création d’un espace de jeux pour enfant « 
+                    <a href="http://www.mucem.org/programme/la-petite-fabrique-de-dubuffet">La Petite Fabrique De Dubuffet</a> » en parallèle de l’exposition sur 
+                    <a href="http://www.mucem.org/programme/exposition-et-temps-forts/jean-dubuffet-un-barbare-en-europe">Jean Dubuffet</a> au sein du Mucem.
+                </p>
+                <p class="subtitleProjet">Réponse à appel à projet, co-conception, prototype, production.</p>
+            
+                <p>En réponse à l’appel à projet lancé par le Mucem pour réaliser un espace jeune public en lien avec leur exposition phare sur Jean Dubuffet, nous avons soumis, avec notre collectif de graphistes préférés 
+                    <a href="https://www.jaune-sardine.fr">Jaune Sardine</a>, la proposition de 4 modules de jeux et 1 module de médiation afin de s’approprier certains codes artistiques de l’artiste.
+                </p>
+                <p>Il nous fallait à la fois réfléchir en permanence à l’utilisation par des enfants de 6 à 12 ans de nos objets, et à l’itinérance de notre proposition, qui voyagera ensuite avec l’exposition sur l’oeuvre de Jean Dubuffet dans différents musées d’Europe.</p>
+                <p>Nous avons donc produit une réponse prenant en compte cette mobilité, sans nécessiter de stockage annexe pour les musées. Ainsi, nos modules sont autant les boîtes de transports, modules de jeux, et stocks de nos pièces afin que l’ensemble soit directement installé dans le même espace.</p>
+                <p>Des rencontres régulières avec Jaune Sardine et nos différents interlocuteurs du Mucem nous ont permis de présenter et affiner la conception du projet. De plus, grâce à notre nouvelle machine de prototypage nous avons pu fournir en amont de la production un échantillon de chaque module afin d’échanger dessus et pouvoir anticiper la réalisation de l’ensemble des pièces.</p>
+                <p>Nos choix de matériaux ont pris en compte les différentes normes régissant cet espace (accueil de groupe d’enfants, réglementation anti-feu, etc.) ainsi que l’usage de nos objets par les enfants (poids et taille des pièces, etc.) les médiateurs (rangement & nettoyage facile), les techniciens (installations & désinstallations facilitées par les roulettes, systèmes de fermetures, cabane démontable par système de paumelles…).</p>
+                <p>Notre proposition finale regroupe ainsi  :</p>
+                <ul class="liste">
+                    <li>“Les Totems”, un module proposant aux enfants de construire différents personnages grâce à des formes à encoches;</li>
+                    <li>“La Cabane”, un espace à l’échelle des enfants entièrement coloriable;</li>
+                    <li>“Le Tête à Tête”, pour apprendre à réaliser des portraits à l’aide de visages et ses attributs aimantés;</li>
+                    <li>“Le Métro”, pour créer des mots en assemblant des lettres dessinées sur des rails;</li>
+                    <li>Un module médiation, proposant des tabourets et permettant l’accueil des enfants, la présentation de l’espace et la conclusion des activités;</li>
+                </ul>
             </div>
         </article>
     </div>
