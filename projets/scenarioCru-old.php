@@ -124,46 +124,12 @@ require_once "header.php";
             <h3>LA VILLE EN JEUX / 12M3</h3>
             <img id="plusProjet" src="<?php echo($logoPlus) ?>" alt="logo plus infos" onclick="displayDescription()">
             <div id="descriptionProjet" >
-                <div id="date">
-                    <h4  >Dates</h4>
-                    <p class="contenu"><span>07.018 - 08.018</span></p>
-                </div>
-                <div id="client">
-                    <h4>Client</h4>
-                    <div class="contenu">  
-                        <h6>La Compagnie des Rêves Urbains</h6>
-                        <p style="font-style:italic">Scénographie pour l’exposition la ville en jeux porté par la <a href="http://revesurbains.fr/"> Compagnie des Rêves Urbains</a></p>
-                    </div>
-                </div>
-                <div id="projet">
-                    <h4>Type de projet</h4>
-                    <div class="contenu">
-                        <p>Commande du client</p>
-                        <p>Conception, prototype, production.</p>
-                    </div>
-                </div>
-
-                <div id="contexte">
-                    <h4>Contexte</h4>
-                    <div class="contenu">
-                        <p>La Compagnie des Rêves urbains a conçu l’ <span>exposition-atelier itinérante</span> «La ville en jeux» pour présenter des jeux de <span>médiation urbaine</span> qui ont pour objectif l’apprentissage de la ville, son architecture, son urbanisme auprès de toutes les tranches d’âge. </p>
-                    </div>
-                </div>
-
-                <div id="deroule">
-                    <h4>Déroulé</h4>
-                    <div class="contenu">
-                        <p>Leur besoin était donc un <span>système de paravents</span> qui puisse <span>se monter et se démonter</span> pour accueillir en son sein de l’ <span>affichage</span> vertical, mais aussi, de monter des étagères en assemblant 4 paravents ensemble.</p>
-                        <p>Une des contraintes était de faire rentrer toute l’exposition dans un camion de 12m3 pour son <span>transport</span> d’une ville à l’autre, chose faite !</p>
-                    </div>
-                </div>
-                <div id="proposition">
-                    <h4>Proposition</h4>
-                    <div class="contenu">
-                        <p>Après présentation d’un prototype de trois paravents, nous avons pu re-paramétrer certains points avec le client afin de convenir parfaitement à leur utilisation, en terme d’ <span>ergonomie</span>, de facilité mais aussi d’insertion dans l’<span>identité graphique</span> portée par <a href="http://www.superterrain.fr/">Super Terrain</a> .</p>
-                        
-                    </div>
-                </div>                
+                <p class="subtitleProjet">07.018 - 08.018</p>
+                <p class="subtitleProjet">Scénographie pour l’exposition la ville en jeux porté par la Compagnie des Rêves Urbains</p>
+                <p class="subtitleProjet">Conception, prototype, production.</p>
+                <p>La Compagnie des Rêves urbains a conçu l’exposition-atelier itinérante «La ville en jeux» pour présenter des jeux de médiation urbaine qui ont pour objectif l’apprentissage de la ville, son architecture, son urbanisme auprès de toutes les tranches d’âge.</p>
+                <p>Leur besoin était donc un système de paravents qui puisse se monter et se démonter facilement, pour accueillir en son sein de l’affichage vertical, mais aussi, de monter des étagères en assemblant 4 paravents ensemble.Une des contraintes était de faire rentrer toute l’exposition dans un camion de 12m3 pour son transport d’une ville à l’autre, chose faite !</p>
+                <p>Après présentation d’un prototype de trois paravents, nous avons pu re-paramétrer certains points avec La Compagnie des Rêves Urbains afin de convenir parfaitement à leur utilisation, en terme d’ergonomie, de facilité mais aussi d’insertion dans l’identité graphique portée par <a href=""> Super Terrain.</a></p>
             </div>
         </article>
     </div>

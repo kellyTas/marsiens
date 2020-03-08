@@ -57,14 +57,51 @@ require_once "header.php";
         <h3>LES PLACES GUICHARD</h3>
         <img id="plusProjet" src="<?php echo($logoPlus) ?>" alt="logo plus infos" onclick="displayDescription()">
         <div id="descriptionProjet" >
-            <p class="subtitleProjet">04.017 - 09.017</p>
-            <p class="subtitleProjet">Deux places transitoires dans le quartier de Saint Mauront, pour la Soleam, en collaboration avec le Fil à Initiatives.</p>
-            <p class="subtitleProjet">Réponse à consultation, pré-conception, conception avec habitants, production, production avec habitants.</p>
-            <p>En 2017, suite à un plan de renouvellement urbain et après démolition de plusieurs logements insalubres sur la rue Guichard, la Soleam, en charge du projet, proposait une consultation pour une installation transitoire sur deux lots déjà démolis. Afin de ne pas laisser deux espaces grillagés pendant 2 ans, temps de transition avant la reconstruction, le projet était donc de proposer des aménagements temporaires aux habitants du quartier.</p>
-            <p>Ainsi, nous devions soumettre une proposition sur chacune des deux places du projet, en corrélation avec l’analyse déjà étable par le Fil à Initiatives plusieurs mois auparavant. Ces derniers avaient interrogé les habitants encore présents dans le quartier sur leurs besoins.</p>
-            <p>Nous avons proposé de distinguer les deux places: - une spécifiquement pour les enfants avec une plateforme et des petites cabanes. - une autre pour les adultes, avec des tables fixes et des bancs mobiles permettant l’appropriation et la modularité de la place selon l’événement (fête projection plein air, atelier, ...)</p>
-            <p>Après une première conception de nos différents éléments, nous avons pu présenter nos propositions sur place aux habitants, grâce à des ateliers du Fil à Initiative. Ce premier échange nous a permis d’écouter leur retour et de les intégrer au projet, afin de leur exposer une proposition adaptée lors d’une seconde présentation. Nous avons ensuite lancé la phase production après validation de la Soleam ainsi que de notre bureau de contrôle.</p>
-            <p>Les bancs, les tables, les petites cabanes ainsi que la grande cabane ont été réalisées à notre atelier avant de construire la plateforme sur place. Durant la dernière semaine de chantier les habitants ont pu participer à la personnalisation des mobiliers et autres ateliers proposés par le Fil à Initiatives. Après validation du bureau de contrôle sur site, et suite à la livraison, la gestion des deux places publiques (fermées le soir) a été confiée au Fil à Initiatives.</p>
+            <div id="date">
+                <h4  >Dates</h4>
+                <p class="contenu"><span>04.017 - 09.017</span></p>
+            </div>
+            <div id="client">
+                <h4>Client</h4>
+                <div class="contenu">  
+                    <h6>Soleam</h6>
+                    <p style="font-style:italic">Réalisation de <span>deux places transitoires</span> dans le quartier de <span>Saint Mauront</span>, pour la Soleam, en collaboration avec le <a href="https://www.lefilainitiatives.org/">Fil à Initiatives.</a></p>
+                </div>
+            </div>
+            <div id="projet">
+                <h4>Type de projet</h4>
+                <p class="contenu">Réponse à <span>consultation</span>, pré-conception, conception avec habitants, production, production
+avec habitants. </p>
+            </div>
+
+            <div id="contexte">
+                <h4>Contexte</h4>
+                <div class="contenu">
+                <p class="contenu">En 2017, suite à un <span>plan de renouvellement urbain</span> et après démolition de plusieurs logements insalubres sur la rue Guichard, la Soleam, en charge du projet, proposait une consultation pour une <span>installation transitoire</span> sur deux lots déjà démolis. Afin de ne pas laisser deux espaces grillagés pendant 2 ans, temps de transition avant la reconstruction, le projet était donc de proposer des <span>aménagements temporaires</span> aux habitants du quartier.</p> 
+                <p>Ainsi, nous devions soumettre une proposition sur chacune des deux places du projet, en corrélation avec l’analyse déjà étable par le Fil à Initiatives plusieurs mois auparavant. Ces derniers avaient <span>interrogé les habitants</span>; encore présents dans le quartier; sur leurs besoins.</p>
+                </div>
+            </div>
+
+            <div id="deroule">
+                <h4>Déroulé</h4>
+                <div class="contenu">
+                    <p>Nous avons proposé de <span>distinguer les deux places</span>: - une spécifiquement pour les <span>enfants</span> avec une plateforme et des petites <span>cabanes</span>. - une autre pour les <span>adultes</span>, avec des <span>tables fixes et des bancs mobiles</span> permettant l’appropriation et la modularité de la place selon l’événement (fête projection plein air, atelier, ...)</p>
+                    <p>Après une première conception de nos différents éléments, nous avons pu présenter nos propositions sur place aux habitants, grâce à des <span>ateliers</span> du Fil à Initiative. Ce premier échange nous a permis d’<span>écouter leur retour et de les intégrer au projet</span>, afin de leur exposer une proposition adaptée lors d’une  seconde présentation. Nous avons ensuite lancé la phase production après validation de la Soleam ainsi que de notre bureau de contrôle.</p>
+                </div>
+            </div>
+            <div id="proposition">
+                <h4>Proposition</h4>
+                <div class="contenu">
+                    <p>Au total la proposition regroupe:</span>  </p>
+                    <ul>
+                        <li>9 bancs mobiles (avec possible parasol) </li>
+                        <li>2 grandes tables de pique-nique</li>
+                        <li>5 petites cabanes </li>
+                        <li>1 grande cabane</li>
+                        <li>1 plateforme/terrasse réalisée sur place. </li>
+                    </ul>
+                </div>
+            </div>                
         </div>
     </article>
 </div>

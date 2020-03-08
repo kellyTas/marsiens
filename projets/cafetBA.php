@@ -119,7 +119,7 @@ require_once "header.php";
             <h3>La Cafét’ des Beaux-Arts</h3>
             <img id="plusProjet" src="<?php echo($logoPlus) ?>" alt="logo plus infos" onclick="displayDescription()">
             <div id="descriptionProjet" >
-            <div id="date">
+                <div id="date">
                     <h4  >Dates</h4>
                     <p class="contenu"> <span> 04.019 - 07.01</span></p>
                 </div>
