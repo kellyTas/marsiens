@@ -51,6 +51,23 @@
 	
 });
 
-
+let video = document.querySelector("video");
+let btnMute = document.querySelector("#muteBtn");
+let sonIsMuted = true;
+btnMute.addEventListener("click",function(){
+    if (sonIsMuted == true){
+        video.muted = false;
+        btnMute.classList.remove("muteBtn");
+        btnMute.classList.add("unmute-video");
+        sonIsMuted = false;
+    }
+    else{
+        video.muted = true;
+        btnMute.classList.remove("unmute-video");
+        btnMute.classList.add("muteBtn");
+        sonIsMuted = true;
+    }
+    
+});
 
 </script>

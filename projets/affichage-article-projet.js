@@ -121,3 +121,4 @@ proposition.addEventListener("click",function(){
     hide(contexte);
     hide(deroule);
 });
+

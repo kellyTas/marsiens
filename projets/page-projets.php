@@ -56,7 +56,6 @@
         <img class="vignetteProjet" src="assets/img/projets/1cariole/1carriole.jpg" alt="">
     </a>
     <a href="page-contacts.php" class="photoProjet11" >
-    <h3 class="mobileProjectTitle">Futur projet</h3>
         <img src="assets/img/projets/fusee-gif.gif" autoplay loop alt="">
     </a>
 </div>

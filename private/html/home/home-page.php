@@ -55,6 +55,3 @@
         <img src="assets/img/logo/flechehaut.png" alt="fleche"/>
     </a>
 </div>
-<script>
-     
-</script>

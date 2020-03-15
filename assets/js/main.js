@@ -6,9 +6,7 @@ window.addEventListener("DOMContentLoaded", (event) => {
     document.addEventListener('scroll',() => {
         let top  = document.documentElement.scrollTop;
     if(lastScrollValue < top) {
-        header.classList.add("hidden");
-        console.log("disparition activé")
-    
+        header.classList.add("hidden");   
     } else {
         header.classList.remove("hidden");
     }
@@ -55,4 +53,5 @@ function displayDescription(){
         isDisplayed = false ;
     }
 }
+
 
