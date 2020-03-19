@@ -18,13 +18,19 @@ require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
         <div class="blocImgProjetsPPI">
-            <img class="imgPPI"  src="../assets/img/projets/4blitz/1blitz.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/4blitz/1blitz.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/4blitz/1blitz.jpg">
+                </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/4blitz/2_1blitz.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/4blitz/2_1blitz.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/4blitz/2_1blitz.jpg">
+                </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/4blitz/2_2blitz.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/4blitz/2_2blitz.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/4blitz/2_2blitz.jpg">
+                </a>
                 </figure>
             </div>
         </div>

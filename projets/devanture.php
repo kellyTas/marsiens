@@ -28,16 +28,36 @@ require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        // boucle image 1
+    <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
         <div class="doubleVerticale">
             <figure class="verticale1">
-                <img  src="../assets/img/projets/5devanture/3_1devanture.jpg" alt="">
+                <a data-fancybox="gallery" href='../assets/img/projets/5devanture/3_1devanture.jpg'>
+                    <img  src="../assets/img/projets/5devanture/3_1devanture.jpg" alt="">
+                </a>
             </figure>
             <figure class="verticale2">
-                <img  src="../assets/img/projets/5devanture/3_2devanture.jpg" alt="">
+                <a data-fancybox="gallery" href='../assets/img/projets/5devanture/3_2devanture.jpg'>
+                    <img  src="../assets/img/projets/5devanture/3_2devanture.jpg" alt="">
+                </a>
             </figure>
         </div>
-        //boucle 2
+        <?php 
+        foreach($images2 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
     </div>
     <article class="txtProjets articleProjet">
         <h3>Devanture du couvent</h3>

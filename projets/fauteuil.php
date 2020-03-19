@@ -14,11 +14,6 @@ $logoPlus = "../assets/img/logo/plus.png";
 
 
 $images1 = [
-    "../assets/img/projets/3fauteuil/Fauteuil.gif",
-    "../assets/img/projets/3fauteuil/1fauteuil.jpg"
-];
-
-$images2 = [
     "../assets/img/projets/3fauteuil/3fauteuil.jpg",
     "../assets/img/projets/3fauteuil/4fauteuil.jpg",
     "../assets/img/projets/3fauteuil/5fauteuil.jpg"
@@ -28,32 +23,34 @@ require_once "../private/html/commun/head.php";
 require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
-    <!-- <div class="blocImgProjetsPPI">
-        //bloucle image 1
-        <div class="doubleVerticale">
-            <figure class="verticale1">
-                <img  src="../assets/img/projets/3fauteuil/2_1fauteuil.jpg" alt="">
-            </figure>
-            <figure class="verticale2">
-                <img  src="../assets/img/projets/3fauteuil/2_2fauteuil.jpg" alt="">
-            </figure>
-        </div>
-        // boucle 2
-    </div> -->
     <div class="blocImgProjetsPPI">
-        <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/Fauteuil.gif" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/1fauteuil.jpg" alt="">
+        <a data-fancybox="gallery" href="../assets/img/projets/3fauteuil/Fauteuil.gif">
+            <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/Fauteuil.gif">
+        </a>
+        <a data-fancybox="gallery" href="../assets/img/projets/3fauteuil/1fauteuil.jpg">
+            <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/1fauteuil.jpg">
+        </a>
         <div class="doubleVerticale">
             <figure class="verticale1">
-                <img src="../assets/img/projets/3fauteuil/2_1fauteuil.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/3fauteuil/2_1fauteuil.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/2_1fauteuil.jpg">
+                </a>
             </figure>
             <figure class="verticale2">
-                <img src="../assets/img/projets/3fauteuil/2_2fauteuil.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/3fauteuil/2_2fauteuil.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/3fauteuil/2_2fauteuil.jpg">
+                </a>
             </figure>
         </div>
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/3fauteuil.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/4fauteuil.jpg" alt="">
-        <img class="imgPPI" src="../assets/img/projets/3fauteuil/5fauteuil.jpg" alt="">
+        <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
     </div>
     <article class="txtProjets articleProjet">
         <h3>FAUTEUIL DE LECTURE</h3>

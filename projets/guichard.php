@@ -31,27 +31,53 @@ require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        //boucle 1
+    <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
         <div class="doubleVerticale">
             <figure class="verticale1">
-                <img  src="../assets/img/projets/6guichard/6_1placesguichard.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/6guichard/6_1placesguichard.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/6guichard/6_1placesguichard.jpg">
+                </a>
             </figure>
             <figure class="verticale2">
-                <img  src="../assets/img/projets/6guichard/6_2placesguichard.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/6guichard/6_2placesguichard.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/6guichard/6_2placesguichard.jpg">
+                </a>
             </figure>
         </div>
         <div class="mosaique" >
             <figure class="colVerticale">
-                <img src="../assets/img/projets/6guichard/7_1placesguichard.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/6guichard/7_1placesguichard.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/6guichard/7_1placesguichard.jpg">
+                </a>
             </figure>
             <figure class="colHorizontale" >
-                <img src="../assets/img/projets/6guichard/7_2placesguichard.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/6guichard/7_2placesguichard.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/6guichard/7_2placesguichard.jpg">
+                </a>
             </figure>
             <figure class="colHorizontale">
-                <img src="../assets/img/projets/6guichard/7_3placesguichard.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/6guichard/7_3placesguichard.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/6guichard/7_3placesguichard.jpg">
+                </a>
             </figure>
         </div>
-        // boucle 2
+        <?php 
+        foreach($images2 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
     </div>
     <article class="txtProjets articleProjet">
         <h3>LES PLACES GUICHARD</h3>

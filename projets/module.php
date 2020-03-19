@@ -23,34 +23,60 @@ require_once "header.php";
 ?>
  <div class="wrapperProjets"> 
         <div class="blocImgProjetsPPI">
-            // boucle 1
+        <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
             <div class="mosaique">
                 <figure class="colVerticale">
-                    <img src="../assets/img/projets/2modules/3_1modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/3_1modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/3_1modules.jpg">
+                    </a>
                 </figure>
                 <figure class="colHorizontale">
-                    <img src="../assets/img/projets/2modules/3_2modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/3_2modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/3_2modules.jpg">
+                    </a>
                 </figure>
                 <figure class="colHorizontale">
-                    <img src="../assets/img/projets/2modules/3_3modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/3_3modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/3_3modules.jpg">
+                    </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/2modules/4modules.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/2modules/4modules.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/2modules/4modules.jpg">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/2modules/5_1modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/5_1modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/5_1modules.jpg">
+                    </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/2modules/5_2modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/5_2modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/5_2modules.jpg">
+                    </a>
                 </figure>
             </div>
-            <img class="imgPPI" src="../assets/img/projets/2modules/6modules.jpg" alt="">
+            <a data-fancybox="gallery" href="../assets/img/projets/2modules/6modules.jpg">
+                <img class="imgPPI gif" src="../assets/img/projets/2modules/6modules.jpg">
+            </a>
             <div class="doubleVerticale">
                 <figure class="verticale1">
-                    <img  src="../assets/img/projets/2modules/7_1modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/7_1modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/7_1modules.jpg">
+                    </a>
                 </figure>
                 <figure class="verticale2">
-                    <img  src="../assets/img/projets/2modules/7_2modules.jpg" alt="">
+                    <a data-fancybox="gallery" href="../assets/img/projets/2modules/7_2modules.jpg">
+                        <img class="imgPPI gif" src="../assets/img/projets/2modules/7_2modules.jpg">
+                    </a>
                 </figure>
             </div>
         </div>

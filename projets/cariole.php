@@ -23,38 +23,70 @@ require_once "header.php";
 ?>
 <div class="wrapperProjets"> 
     <div class="blocImgProjetsPPI">
-        // bouble image1
+    <?php 
+        foreach($images1 as $image){
+            echo'
+            <a data-fancybox="gallery" href='.$image.'>
+                <img class="imgPPI gif" src='.$image.'>
+            </a>
+            ';
+        }
+        ?>
         <div class="doubleVerticale">
             <figure class="verticale1">
-                <img  src="../assets/img/projets/1cariole/3_1carriole.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/3_1carriole.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/3_1carriole.jpg">
+                </a>
             </figure>
             <figure class="verticale2">
-                <img  src="../assets/img/projets/1cariole/3_2carriole.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/3_2carriole.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/3_2carriole.jpg">
+                </a>
             </figure>
         </div>
         <div class="doubleVerticale">
             <figure class="verticale1">
-                <img  src="../assets/img/projets/1cariole/4_1carriole.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/4_1carriole.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/4_1carriole.jpg">
+                </a>
             </figure>
             <figure class="verticale2">
-                <img  src="../assets/img/projets/1cariole/4_2carriole.jpg" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/4_2carriole.jpg">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/4_2carriole.jpg">
+                </a>
             </figure>
         </div>
-        <img class="imgPPI" src="../assets/img/projets/1cariole/5carriole.jpg" alt="">
+        <a data-fancybox="gallery" href="../assets/img/projets/1cariole/5carriole.jpg">
+            <img class="imgPPI gif" src="../assets/img/projets/1cariole/5carriole.jpg">
+        </a>
         <div class="mosaiquePar4">
             <figure class="col1 mosaique-top">
-                <img src="../assets/img/projets/1cariole/6_1carriole.png" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/6_1carriole.png">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/6_1carriole.png">
+                </a>
             </figure>
             <figure class="col2">
-                <img src="../assets/img/projets/1cariole/6_2carriole.png" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/6_2carriole.png">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/6_2carriole.png">
+                </a>
             </figure>
-            <figure class="col1 mosaique-top">">
-                <img src="../assets/img/projets/1cariole/7_1carriole.png" alt="">
+            <figure class="col1 mosaique-top">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/7_1carriole.png">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/7_1carriole.png">
+                </a>
             </figure>
             <figure class="col2">
-                <img src="../assets/img/projets/1cariole/7_2carriole.png" alt="">
+                <a data-fancybox="gallery" href="../assets/img/projets/1cariole/7_2carriole.png">
+                    <img class="imgPPI gif" src="../assets/img/projets/1cariole/7_2carriole.png">
+                </a>
             </figure>
         </div>
+        <a data-fancybox="gallery" href="../assets/img/projets/1cariole/8_1carriole.png">
+            <img class="imgPPI gif" src="../assets/img/projets/1cariole/8_1carriole.png">
+        </a>
+        <a data-fancybox="gallery" href="../assets/img/projets/1cariole/8_2carriole.png">
+            <img class="imgPPI gif" src="../assets/img/projets/1cariole/8_2carriole.png">
+        </a>
     </div>
     <article class="txtProjets articleProjet">
         <h3>La carriole</h3>
