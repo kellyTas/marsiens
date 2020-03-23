@@ -1199,6 +1199,7 @@ footer{
 	}
 	footer div {
 		width: 40%;
+	}
 }
 
 
@@ -1566,7 +1567,7 @@ footer{
 }
 
 /* iMac et grands écrans*/ 
-
+/*
 @media screen and (min-width:1800px) {
 	
 	header{
@@ -1601,4 +1602,4 @@ footer{
 	.photoProjet1 #homeVignette3-hover{
 		height: 100%;
 	}
-}
+}*/
