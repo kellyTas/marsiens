@@ -30,8 +30,9 @@ function hide(elem){
 
 function unFlouter(elem1,elem2,elem3,elem4,elem5,elem6,elem7,elem8,elem9){
     let arrayElem = [elem1,elem2,elem3,elem4,elem5,elem6,elem7,elem8,elem9];
-    for (const elem of arrayElem){
-        document.querySelector("#"+elem.attributes[1].nodeValue + " h3").classList.remove("flou");        
+    let elemx ="";
+    for (elemx of arrayElem){
+        document.querySelector("#"+elemx.attributes[1].nodeValue + " h3").classList.remove("flou");        
     }
     
 }

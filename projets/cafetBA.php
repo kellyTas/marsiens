@@ -170,7 +170,7 @@ require_once "header.php";
                             <li>1 banque de fin de service et des poubelles</li>
                         </ul>
                         <p>Grace au travail et l’aide de l’équipe technique de l’école pour la rénovation des lieux nous avons pu installer pour la rentée de Janvier 2020 le nouvel espace Cafétéria des Beaux-Arts de Marseille.</p>
-                        <p>Fournisseurs: Littoral Bois (Panneaux et Tasseaux) Mousse & Confection (coussins d’assises) EVP (vernis) GLoxy (découpe laser et pliage des tôles d’acier) Themolaquage Provençal ( thermolaquage des pièces métalliques) LM5P (éclairage), Plasticiet (plaques de plastique PUHD recyclé). </p>
+                        <p class="fournisseur">Fournisseurs: Littoral Bois (Panneaux et Tasseaux) Mousse & Confection (coussins d’assises) EVP (vernis) GLoxy (découpe laser et pliage des tôles d’acier) Themolaquage Provençal ( thermolaquage des pièces métalliques) LM5P (éclairage), Plasticiet (plaques de plastique PUHD recyclé). </p>
                     </div>
                 </div>
             </div>

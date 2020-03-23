@@ -592,7 +592,7 @@ section{
 	transition: src ease 1s;
 }
 .flou{
-	filter: blur(5px);
+	filter: blur(2.5px);
 	transition: filter 1.5s ease;
 }
 
@@ -691,7 +691,9 @@ main .wrapperProjets .onTop{
 .cacher {
 	display: none;
 }
-
+#proposition .contenu .fournisseur{
+	font-size: 1em;;
+}
 /* MOZAIQUE PAR 3 2horizontale 1verticales */
 .mosaique{
     display:flex;
