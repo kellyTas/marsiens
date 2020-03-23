@@ -1,5 +1,3 @@
-console.log("STAAAAART")
-
 let cafet = document.getElementById("cafet");
 let dubuffet = document.getElementById("dubuffet");
 let ville = document.getElementById("ville");
@@ -21,7 +19,6 @@ function flouter(elem1,elem2,elem3,elem4,elem5,elem6,elem7,elem8,elem9){
     let arrayElem = [elem1,elem2,elem3,elem4,elem5,elem6,elem7,elem8,elem9];
     
     for (let i =0 ; i < arrayElem.length ; i++){
-        console.log("#"+arrayElem[i].attributes[1].nodeValue);
         document.querySelector("#"+arrayElem[i].attributes[1].nodeValue + " h3").classList.add("flou");        
     }
     

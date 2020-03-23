@@ -51,7 +51,7 @@
         </a>
     </div>
     <div id="vignetteProjet">
-        <img src="assets/img/projets/fusee-gif.gif" autoplay loop>
+        <img src="assets/img/projets/10BA/image_preview.jpg" autoplay loop>
     </div>
 </div>
 <div id="flechHaut">
