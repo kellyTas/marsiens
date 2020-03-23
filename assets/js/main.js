@@ -1,8 +1,6 @@
 window.addEventListener("DOMContentLoaded", (event) => {
-    console.log("DOM entièrement chargé et analysé");
     let header = document.querySelector("header");
     let lastScrollValue = 0;
-    console.log(header);
     document.addEventListener('scroll',() => {
         let top  = document.documentElement.scrollTop;
     if(lastScrollValue < top) {

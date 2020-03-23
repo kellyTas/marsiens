@@ -9,7 +9,7 @@
     </div>
 </footer>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-
+<script src="projets/affichage-page-projet.js"></script>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158985950-1"></script>
 
 <script>
