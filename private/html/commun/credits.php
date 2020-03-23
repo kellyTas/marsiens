@@ -4,8 +4,7 @@
     <div class="line"></div>
 </div>
 <article class="credits">
-    <div class="encart-credit jaune">
-        <img class="logo-credit" src="assets/img/credits/logo_video_credit.png"> 
+    <div class="encart-credit jaune video">
         <div class="texte-credit" class="texte-jaune"> 
             <h4>Vidéo :</h4>
             <a href="http://myriambou-saha.fr" target="_blank">Myriam Bou-Saha</a>
@@ -13,8 +12,7 @@
             <a href="https://vimeo.com/gcmotiondesign" target="_blank">Guillaume Coquard</a>
         </div>
     </div>
-    <div class="encart-credit jaune">
-        <img class="logo-credit" src="assets/img/credits/logo_photo_credit.png"> 
+    <div class="encart-credit jaune photo">
         <div class="texte-credit" class="texte-jaune">
             <h4>Photos :</h4>
             <a href="http://damienboschi.com">Damien Boschi,</a>
@@ -23,8 +21,7 @@
             <a href="http://julientiverne.myportfolio.com">Julien Tiverné</a>
         </div>
     </div>
-    <div class="encart-credit jaune">
-        <img class="logo-credit" src="assets/img/credits/logo_webdesign_credit.png"> 
+    <div class="encart-credit jaune webdesign">
         <div class="texte-credit" class="texte-jaune">
             <h4>Code / Développement :</h4>
             <a href="mailto:kelly.tastets@gmail.com">Kelly Tastets</a>
@@ -32,8 +29,7 @@
             <a href="mailto:duplantieradrien@gmail.com">Adrien Duplantier</a>
         </div>
     </div>
-    <div class="encart-credit jaune">
-        <img class="logo-credit" src="assets/img/credits/logo_illustration_credit.png"> 
+    <div class="encart-credit jaune illustration">
         <div class="texte-credit" class="texte-jaune">
             <h4>Logo :</h4>
             <a href="https://www.instagram.com/bastien_jourdan/">Bastien Jourdan</a>
