@@ -126,7 +126,7 @@ module.addEventListener("mouseover",function(){
 });
 module.addEventListener("mouseout",function(){
     hide(module);
-    unFlouter(cafet,dubuffet,ville,levat,guichard,couvent,fauteuil,cariole);
+    unFlouter(cafet,dubuffet,ville,levat,guichard,couvent,blitz,fauteuil,cariole);
 });
 
 cariole.addEventListener("mouseover",function(){
@@ -136,5 +136,5 @@ cariole.addEventListener("mouseover",function(){
 });
 cariole.addEventListener("mouseout",function(){
     hide(cariole);
-    unFlouter(cafet,dubuffet,ville,levat,guichard,couvent,fauteuil,module);
+    unFlouter(cafet,dubuffet,ville,levat,guichard,couvent,blitz,fauteuil,module);
 });

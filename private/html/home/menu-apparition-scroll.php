@@ -70,4 +70,28 @@ btnMute.addEventListener("click",function(){
     
 });
 
+/*
+_  _ ____ _  _ ____ ____    ___  _    _  _ ____ 
+|__| |  | |  | |___ |__/    |__] |    |  | [__  
+|  | |__|  \/  |___ |  \    |    |___ |__| ___] 
+                                                
+*/
+
+let btnProjets = document.querySelector(".block-lien button");
+let imgBtnProjets = document.querySelector(".block-lien button img");
+
+btnProjets.addEventListener("mouseover",function(){
+    imgBtnProjets.setAttribute("src","assets/img/logo/croix-projets.gif");
+});
+btnProjets.addEventListener("mouseout",function(){
+	imgBtnProjets.setAttribute("src","assets/img/logo/plus.png");
+});
+
+btnProjets.addEventListener("mouseover",function(){
+    imgBtnProjets.setAttribute("src","assets/img/logo/croix-projets.gif");
+});
+btnProjets.addEventListener("mouseout",function(){
+	imgBtnProjets.setAttribute("src","assets/img/logo/plus.png");
+});
+
 </script>

@@ -30,7 +30,7 @@
         <h3>Livia Ripamonti</h3>
         <p>Marsienne</p>
         <p>Designer</p>
-        <p>Diplomée de l’ESADMM</p>
+        <p>Diplômée de l’ESADMM</p>
     </article>
     <article class="articleEquipe">
         <img id="photoVince" src="assets/img/photoEquipe/VinceMusyoffciel.jpg" alt="photo de Vince">
@@ -103,6 +103,21 @@
         <a href="http://smak-studio.fr/" target="_blank"><img src="assets/img/photoEquipe/franck.jpg" alt="photo de Franck Chalnot"></a>
         <a href="http://smak-studio.fr/" target="_blank"><h3>Franck Chalnot</h3></a>
         <p>Designer d’espace</p>
+    </article>
+    <article class="articleEquipe photosatellite">
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><img class="noirEtBlanc" src="assets/img/photoEquipe/lucie-martin.jpeg" alt="photo de Lucie Martin"></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><h3>Lucie Martin</h3></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><p>Jaune Sardine - Designers graphiques</p></a>
+    </article>
+    <article class="articleEquipe photosatellite">
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><img class="noirEtBlanc" src="assets/img/photoEquipe/ambre-simon.jpeg" alt="photo de Ambre Simon"></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><h3>Ambre Simon</h3></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><p>Jaune Sardine - Designers graphiques</p></a>
+    </article>
+    <article class="articleEquipe photosatellite">
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><img class="noirEtBlanc" src="assets/img/photoEquipe/julien-lannone.jpeg" alt="photo de Julien Lannone"></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><h3>Julien Lannone</h3></a>
+        <a href="https://www.jaune-sardine.fr/" target="_blank"><p>Jaune Sardine - Designers graphiques</p></a>
     </article>
 </div>
 
