@@ -84,7 +84,7 @@ body p{
 	line-height: 1.8em;
 }
 main{
-	padding-top: 15em;
+	padding-top: 10em;
 	width: 90%;
 	margin: 0 auto;
 	flex-grow: 1;
@@ -167,7 +167,7 @@ header {
 }
 header.hidden {
 	transition:top 1s ease-out;
-	top: -12vh;
+	top: -30vh;
 }
 nav {
 	width: 100%;
