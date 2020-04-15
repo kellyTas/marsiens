@@ -1,7 +1,7 @@
 </main>
 <footer>
     <div>
-        <a href="page-credits.php">Credits</a>
+        <a href="page-credits.php">Crédits</a>
         <a href="page-legales.php">Mentions légales</a>
     </div>
     <div id="copyright">
