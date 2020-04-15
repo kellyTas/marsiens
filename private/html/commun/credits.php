@@ -1,6 +1,6 @@
 <div class="titlewrapper">
     <div class="line"></div>
-    <h2 class="sousTitres">Credits</h2>
+    <h2 class="sousTitres">Crédits</h2>
     <div class="line"></div>
 </div>
 <article class="credits">
