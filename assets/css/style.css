@@ -501,7 +501,7 @@ section{
 	text-align: left;
 }
 .noirEtBlanc{
-	filter: grayscale(0.7);
+	filter: grayscale(100%);
 }
 
 
